@@ -252,6 +252,10 @@ section h2 {
     width: 80%;
 }
 
+#on p {
+    max-width: 100%;
+}
+
 #on--group {
     width: 60%;
 }
@@ -270,7 +274,7 @@ section h2 {
 
 .film {
     display: flex;
-    -webkit-display: flex;
+    display: -webkit-flex;
     align-content: flex-start;
     flex-wrap: wrap;
 }
@@ -283,7 +287,7 @@ section h2 {
 
 .film #info {
     display: flex;
-    -webkit-display: flex;
+    display: -webkit-flex;
     flex-direction: column;
     height: 100%;
     width: 500px;

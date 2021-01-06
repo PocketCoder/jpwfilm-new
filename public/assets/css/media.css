@@ -22,25 +22,21 @@
         max-height: 100%;
     }
 
-    #on p {
-        width: 100%;
-    }
-
     #on--group {
         width: 100%;
         flex-basis: 100%
     }
 
     #on--group:last-child {
-        margin: 20px 0 0 0 !important;
+        margin-top: 20px !important;
     }
 }
 
 @media only screen and (max-device-width: 720px) {
     .film .image {
-        flex-basis: 100%;
+        margin: 0;
     }
-
+    
     #left, #right {
         min-width: 0;
         width: 100%;
