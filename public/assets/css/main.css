@@ -268,10 +268,6 @@ section h2 {
     margin-left: 50px;
 }
 
-#films {
-    /*text-align: right;*/
-}
-
 .film {
     display: flex;
     display: -webkit-flex;
