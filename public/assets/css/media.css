@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1300px) {
+@media only screen and (min-device-width: 1300px) {
     #contact {
         height: auto;
     }
@@ -8,7 +8,7 @@
     }
 }
 
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-device-width: 1080px) {
     .image#me {
         width: 100%;
     }
@@ -22,17 +22,21 @@
         max-height: 100%;
     }
 
+    #on p {
+        width: 100%;
+    }
+
     #on--group {
         width: 100%;
         flex-basis: 100%
     }
 
     #on--group:last-child {
-        margin: 20px 0 0 0;
+        margin: 20px 0 0 0 !important;
     }
 }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-device-width: 720px) {
     .film .image {
         flex-basis: 100%;
     }
