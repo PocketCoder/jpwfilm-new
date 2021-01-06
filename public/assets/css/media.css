@@ -1,0 +1,57 @@
+@media only screen and (max-width: 1300px) {
+    #contact {
+        height: auto;
+    }
+    
+    #right {
+        border-left: none;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    .image#me {
+        width: 100%;
+    }
+
+    #about--group {
+        width: 100%;
+    }
+
+    #on {
+        width: 100%;
+        max-height: 100%;
+    }
+
+    #on--group {
+        width: 100%;
+        flex-basis: 100%
+    }
+
+    #on--group:last-child {
+        margin: 20px 0 0 0;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .film .image {
+        flex-basis: 100%;
+    }
+
+    #left, #right {
+        min-width: 0;
+        width: 100%;
+    }
+
+    form {
+        min-width: 0;
+        width: 100%;
+    }
+
+    #right h3, #right #row--wrapper {
+        margin: 20px 0 0 0;
+    }
+
+    #right #row--wrapper .row {
+        margin-left: 0;
+    }
+}
