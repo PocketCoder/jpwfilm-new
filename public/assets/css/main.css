@@ -356,7 +356,6 @@ Contact
     display: -webkit-flex;
     flex-direction: row;
     flex-wrap: wrap;
-    height: 60vh;
     width: 100%;
 }
 
@@ -487,7 +486,7 @@ Footer
 
 footer {
     position: relative;
-    height: 50vh;
+    height: 25vh;
     width: 100vw;
 }
 
