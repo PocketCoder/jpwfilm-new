@@ -345,6 +345,16 @@ section h2 {
     margin: 1px 0 15px 0;
 }
 
+.tbc {
+    opacity: 0.5;
+    transition: opacity 0.25s ease-in-out;
+}
+
+.tbc:hover {
+    opacity: 0.9;
+    transition: opacity 0.25s ease-in-out;
+}
+
 /* ---------------
 
 Contact
