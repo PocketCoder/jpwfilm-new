@@ -127,7 +127,7 @@ header.side a:hover:before {
 }
 
 #r {
-    opacity: 0.5;
+    opacity: 1;
     top: 0;
     right: 0;
     left: 99vw;
@@ -143,13 +143,6 @@ header.side a:hover:before {
     -ms-transform: rotate(90deg);
     -o-transform: rotate(90deg);
     transform: rotate(90deg);
-
-    transition: opacity 0.5s ease-in-out;
-}
-
-#r:hover {
-    opacity: 1;
-    transition: opacity 0.5s ease-in-out;
 }
 
 header.side h1 {
@@ -189,7 +182,7 @@ main {
     justify-content: space-evenly;
     min-height: 100vh;
     width: 90vw;
-    padding: 50px 75px;
+    padding: 50px 75px 0 75px;
 }
 
 main header {
@@ -209,7 +202,7 @@ main a:hover {
 section {
     min-height: 40vh;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 0;
 }
 
 section h2 {
@@ -322,9 +315,11 @@ section h2 {
     margin: 30px 0 0 0;
 }
 
+/*
 .film:nth-child(2), .script:nth-child(2) {
     margin: 0;
 }
+*/
 
 #films div:last-child, #scripts div:last-child {
     margin-bottom: 30px;
