@@ -311,21 +311,31 @@ section h2 {
     margin-bottom: 15px;
 }
 
-.film, .script {
+.film {
     margin: 30px 0 0 0;
 }
 
-/*
-.film:nth-child(2), .script:nth-child(2) {
-    margin: 0;
-}
-*/
-
-#films div:last-child, #scripts div:last-child {
+#films div:last-child {
     margin-bottom: 30px;
 }
 
+#scripts {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-evenly;
+    align-content: space-between;
+    flex-wrap: wrap;
+    min-height: 70vh;
+}
+
 .script {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: space-between;
+    flex-wrap: wrap;
+    width: 500px;
     border-left: 5px solid var(--pink);
     padding: 0 0 0 10px;
     transition: border-left-color 0.25s ease-in-out;
@@ -335,9 +345,16 @@ section h2 {
     border-left-color: var(--black);
     transition: border-left-color 0.25s ease-in-out;
 }
+.script span {
+    margin: 0 0 15px 0;
+}
 
 .script p {
-    margin: 1px 0 15px 0;
+    margin: 1px 0 0 0;
+}
+
+.script a {
+    max-width: 155px;
 }
 
 .tbc {
