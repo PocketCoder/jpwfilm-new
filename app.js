@@ -15,7 +15,9 @@ app.listen(process.env.PORT || 8000, () => {
 });
 
 // Blog
-app.use('/blog', express.static(path.join(__dirname, '/blog/public')));
+app.get('/blog', function(req, res) {
+    express.static(path.join(__dirname, '/blog/public'));
+}
 
 // Contact form
 app.use(bodyParser.urlencoded({
