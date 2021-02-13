@@ -14,6 +14,9 @@ app.listen(process.env.PORT || 8000, () => {
     console.log(`Listening on http://127.0.0.1:${process.env.PORT || 8000}`);
 });
 
+// Blog
+app.use('/blog', express.static(path.join(__dirname, '/blog/public')));
+
 // Contact form
 app.use(bodyParser.urlencoded({
     extended: true
