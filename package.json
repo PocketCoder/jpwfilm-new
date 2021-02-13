@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\"",
     "start": "node app.js",
-    "build": "cd ./public/blog/ && hexo generate -f -d"
+    "build": "cd ./public/blog/ && npm i && hexo deploy -g"
   },
   "repository": {
     "type": "git",
